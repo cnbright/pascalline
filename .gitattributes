@@ -1,0 +1,12 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.scad -text
+*.obj -text
+*.stl -text
+*.csv -text
+*.json -text
+*.zip binary
+*.png binary
+*.pdf binary
+

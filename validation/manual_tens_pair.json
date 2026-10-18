@@ -1,0 +1,59 @@
+{
+  "source_sha256": "938b2e7983265af279ef11afa5ffce0bac8022f535ac9fe8ba747e4faf517040",
+  "scope": "SCAD-cut actual pawl footprints; tens manually advances 0..36deg at fixed units lift8.3/-4.5/0. Each pawl uses its minimum nonpenetrating CW opening for each tooth angle. Not a spring/force/continuity proof.",
+  "phase_step_deg": 0.1,
+  "angle_search_step_deg": 0.05,
+  "angle_refinement_iterations": 25,
+  "stop_limit_deg": 25,
+  "drive_limit_deg": 15,
+  "results": [
+    {
+      "fixed_slider_lift_mm": 8.3,
+      "sample_count": 361,
+      "missing_legal_angle_count": 0,
+      "missing_legal_angle_examples": [],
+      "max_drive_cw_angle": 6.708500154316425,
+      "max_stop_cw_angle": 6.951700498163699,
+      "minimum_pair_gap": {
+        "gear_phase": 22.200000000000003,
+        "drive_cw_angle": 5.387717573344707,
+        "stop_cw_angle": 5.418525563180447,
+        "gap_mm": 4.412305142908577
+      },
+      "pair_overlap_count": 0,
+      "pair_overlap_examples": []
+    },
+    {
+      "fixed_slider_lift_mm": -4.5,
+      "sample_count": 361,
+      "missing_legal_angle_count": 0,
+      "missing_legal_angle_examples": [],
+      "max_drive_cw_angle": 9.297916233539581,
+      "max_stop_cw_angle": 6.951700498163699,
+      "minimum_pair_gap": {
+        "gear_phase": 20.200000000000003,
+        "drive_cw_angle": 9.297916233539581,
+        "stop_cw_angle": 4.607134987413884,
+        "gap_mm": 13.062726916653752
+      },
+      "pair_overlap_count": 0,
+      "pair_overlap_examples": []
+    },
+    {
+      "fixed_slider_lift_mm": 0.0,
+      "sample_count": 361,
+      "missing_legal_angle_count": 0,
+      "missing_legal_angle_examples": [],
+      "max_drive_cw_angle": 10.206648544967175,
+      "max_stop_cw_angle": 6.951700498163699,
+      "minimum_pair_gap": {
+        "gear_phase": 35.9,
+        "drive_cw_angle": 10.206648544967175,
+        "stop_cw_angle": 0.0,
+        "gap_mm": 8.925737472318062
+      },
+      "pair_overlap_count": 0,
+      "pair_overlap_examples": []
+    }
+  ]
+}

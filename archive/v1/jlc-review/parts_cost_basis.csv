@@ -1,0 +1,15 @@
+row_type,scenario,part,material,quantity,unit_volume_cm3,total_volume_cm3,source,note
+part,both,base,9600,1,103.042634,103.042634,exports/base.stl,Current STL solid volume only; excludes support and design changes
+part,both,digit_wheel,9600,2,17.058584,34.117168,exports/digit_wheel.stl,Current STL solid volume only; excludes support and design changes
+part,both,units_cam,9600,1,6.530904,6.530904,exports/units_cam.stl,Current STL solid volume only; excludes support and design changes
+part,both,carry_slider,9600,1,3.055999,3.055999,exports/carry_slider.stl,Current STL solid volume only; excludes support and design changes
+part,both,drive_pawl,3201PA-F,1,0.253691,0.253691,exports/drive_pawl.stl,Current STL solid volume only; excludes support and design changes
+part,both,stop_pawl,3201PA-F,2,0.468342,0.936684,exports/stop_pawl.stl,Current STL solid volume only; excludes support and design changes
+part,both,shaft_spacer,9600,2,0.307862,0.615724,exports/shaft_spacer.stl,Current STL solid volume only; excludes support and design changes
+part,with_cover,top_cover,9600,1,36.698247,36.698247,exports/top_cover.stl,Current STL solid volume only; excludes support and design changes
+subtotal,with_cover,,9600,8,,184.060676,exports/mesh_report.json,Inspection row; quote_compare.py sums part rows only
+subtotal,with_cover,,3201PA-F,3,,1.190375,exports/mesh_report.json,Inspection row; quote_compare.py sums part rows only
+total,with_cover,,ALL,11,,185.251051,exports/mesh_report.json,Inspection row; quote_compare.py sums part rows only
+subtotal,without_cover,,9600,7,,147.362429,exports/mesh_report.json,Inspection row; quote_compare.py sums part rows only
+subtotal,without_cover,,3201PA-F,3,,1.190375,exports/mesh_report.json,Inspection row; quote_compare.py sums part rows only
+total,without_cover,,ALL,10,,148.552804,exports/mesh_report.json,Inspection row; quote_compare.py sums part rows only

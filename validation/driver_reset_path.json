@@ -1,0 +1,50 @@
+{
+  "status": "TAPERED_DRIVER_VERIFIED_WITH_CONSERVATIVE_RECTANGULAR_PLANNER_15_DEGREE_LIMIT",
+  "scope": "Driver-to-ratchet geometric existence path only; other assembly parts, force, friction, springs and tolerances not simulated",
+  "actual_nose_polygon_mm": [
+    [
+      68,
+      0
+    ],
+    [
+      71.5,
+      0
+    ],
+    [
+      71,
+      3.5
+    ],
+    [
+      68,
+      3.5
+    ]
+  ],
+  "planner_envelope": "Actual pawl union old rectangular nose [68,71.5] x [0,3.5]",
+  "planner_contains_actual_pawl": true,
+  "opening_result_interpretation": "Conservative feasible opening bound; not a minimum required opening for the tapered nose",
+  "gear_phase_degrees": 36.0,
+  "drive_opening_limit_degrees": 15.0,
+  "planner_envelope_minimum_extra_return_mm_sampled": 3.985266834497452,
+  "selected_home_stroke_mm": -4.5,
+  "nominal_extra_return_margin_mm": 0.5147331655025482,
+  "opening_search_resolution_degrees": 0.005,
+  "path_start": [
+    8.3,
+    0.0
+  ],
+  "path_finish": [
+    0.0,
+    0.0
+  ],
+  "path_node_count": 2336,
+  "checked_nodes_and_midpoints": 4671,
+  "maximum_planned_opening_degrees": 12.35,
+  "nominal_opening_margin_degrees": 2.6500000000000004,
+  "maximum_adjacent_opening_change_degrees": 0.04978142076502934,
+  "maximum_adjacent_stroke_change_mm": 0.019999999999999574,
+  "overlap_count": 0,
+  "overlap_examples": [],
+  "path_csv": "driver_reset_path.csv",
+  "actual_outside_planner_area_mm2": 0.0,
+  "collision_check_geometry": "Actual tapered pawl WHOLE at every recorded path node and segment midpoint"
+}

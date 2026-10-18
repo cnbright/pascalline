@@ -1,0 +1,99 @@
+{
+  "source_sha256": "938b2e7983265af279ef11afa5ffce0bac8022f535ac9fe8ba747e4faf517040",
+  "current_source_matches": true,
+  "scope": "SCAD horizontal sections at constant topology layers; samples cover independent drive angles 0..15deg and stop angles 0..25deg and lifts -4.5..10.4. Geometry only, intended tangent contacts use 1e-4 mm2 overlap tolerance.",
+  "collisions": [
+    {
+      "pair": "drive_tens_stop_swept",
+      "max_overlap_area_mm2": 10.690072513481002,
+      "drive_angle": -15.0,
+      "lift": 10.4,
+      "z": 14.5,
+      "bounds": [
+        60.42849915610954,
+        -15.73261573826874,
+        65.34105229002188,
+        -11.530340698397792
+      ]
+    }
+  ],
+  "minimum_distances": {
+    "base_slider_z6.5": {
+      "gap_mm": 1.4106393872215233,
+      "lift": 10.4,
+      "z": 6.5
+    },
+    "base_slider_z9.5": {
+      "gap_mm": 1.4106393872215233,
+      "lift": 10.4,
+      "z": 9.5
+    },
+    "base_slider_z11.5": {
+      "gap_mm": 1.4106393872215233,
+      "lift": 10.4,
+      "z": 11.5
+    },
+    "base_slider_z13.75": {
+      "gap_mm": 1.4106393872215233,
+      "lift": 10.4,
+      "z": 13.75
+    },
+    "base_slider_z14.5": {
+      "gap_mm": 1.5,
+      "lift": -4.5,
+      "z": 14.5
+    },
+    "base_stop0": {
+      "gap_mm": 0.0003417556130411039,
+      "open_angle": -25.0,
+      "z": 14.5
+    },
+    "slider_stop0": {
+      "gap_mm": 46.16133314054758,
+      "open_angle": 0.0,
+      "lift": 10.4,
+      "z": 14.5
+    },
+    "base_stop1": {
+      "gap_mm": 0.0003417556130411039,
+      "open_angle": -25.0,
+      "z": 14.5
+    },
+    "slider_stop1": {
+      "gap_mm": 8.682074442209291,
+      "open_angle": -11.5,
+      "lift": 10.4,
+      "z": 14.5
+    },
+    "drive_slider": {
+      "gap_mm": 0.0,
+      "drive_angle": -15.0,
+      "z": 14.5
+    },
+    "base_drive": {
+      "gap_mm": 0.8631247622061664,
+      "open_angle": -15.0,
+      "lift": 10.4,
+      "z": 14.5
+    },
+    "base_slider_z17.25": {
+      "gap_mm": 9.136392727745454,
+      "lift": 10.4,
+      "z": 17.25
+    },
+    "base_slider_z19.5": {
+      "gap_mm": 29.462400055950976,
+      "lift": 10.4,
+      "z": 19.5
+    },
+    "drive_tens_stop_swept": {
+      "gap_mm": 0.0,
+      "drive_angle": -8.0,
+      "lift": 10.4,
+      "z": 14.5
+    }
+  },
+  "independent_envelope_note": "The drive/stop swept-envelope collision combines independently maximal opening and lift. See pawl_pair_path.json and manual_tens_pair.json for the actual prescribed path and manual tens checks; no claim is made that arbitrary manual pawl opening is collision-free.",
+  "prescribed_path_evidence": "pawl_pair_path.json",
+  "manual_tens_evidence": "manual_tens_pair.json"
+}

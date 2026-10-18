@@ -1,0 +1,240 @@
+{
+  "scope": "STL topology only; physical mechanism remains untested",
+  "units": "mm",
+  "parts": [
+    {
+      "file": "exports/base.stl",
+      "triangles": 15472,
+      "components": 1,
+      "bbox_min_mm": [
+        -52.0,
+        -52.0,
+        0.0
+      ],
+      "bbox_max_mm": [
+        136.0,
+        52.0,
+        26.5
+      ],
+      "size_mm": [
+        188.0,
+        104.0,
+        26.5
+      ],
+      "signed_volume_mm3": 111366.394,
+      "nonmanifold_edges": 0,
+      "orientation_errors": 0,
+      "degenerate_triangles": 0,
+      "mesh_check_passed": true,
+      "quantity": 1
+    },
+    {
+      "file": "exports/digit_wheel.stl",
+      "triangles": 19956,
+      "components": 1,
+      "bbox_min_mm": [
+        -35.0,
+        -35.0,
+        0.0
+      ],
+      "bbox_max_mm": [
+        35.0,
+        35.0,
+        11.0
+      ],
+      "size_mm": [
+        70.0,
+        70.0,
+        11.0
+      ],
+      "signed_volume_mm3": 17161.875,
+      "nonmanifold_edges": 0,
+      "orientation_errors": 0,
+      "degenerate_triangles": 0,
+      "mesh_check_passed": true,
+      "quantity": 2
+    },
+    {
+      "file": "exports/units_cam.stl",
+      "triangles": 8204,
+      "components": 1,
+      "bbox_min_mm": [
+        -17.5,
+        -31.926,
+        0.0
+      ],
+      "bbox_max_mm": [
+        17.5,
+        17.5,
+        11.0
+      ],
+      "size_mm": [
+        35.0,
+        49.426,
+        11.0
+      ],
+      "signed_volume_mm3": 4876.861,
+      "nonmanifold_edges": 0,
+      "orientation_errors": 0,
+      "degenerate_triangles": 0,
+      "mesh_check_passed": true,
+      "quantity": 1
+    },
+    {
+      "file": "exports/carry_slider.stl",
+      "triangles": 5070,
+      "components": 1,
+      "bbox_min_mm": [
+        -3.0,
+        -41.0,
+        0.0
+      ],
+      "bbox_max_mm": [
+        73.0,
+        37.0,
+        14.0
+      ],
+      "size_mm": [
+        76.0,
+        78.0,
+        14.0
+      ],
+      "signed_volume_mm3": 5397.358,
+      "nonmanifold_edges": 0,
+      "orientation_errors": 0,
+      "degenerate_triangles": 0,
+      "mesh_check_passed": true,
+      "quantity": 1
+    },
+    {
+      "file": "exports/drive_pawl.stl",
+      "triangles": 1468,
+      "components": 1,
+      "bbox_min_mm": [
+        35.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_mm": [
+        71.5,
+        35.0,
+        3.0
+      ],
+      "size_mm": [
+        36.5,
+        35.0,
+        3.0
+      ],
+      "signed_volume_mm3": 649.323,
+      "nonmanifold_edges": 0,
+      "orientation_errors": 0,
+      "degenerate_triangles": 0,
+      "mesh_check_passed": true,
+      "quantity": 1
+    },
+    {
+      "file": "exports/stop_pawl.stl",
+      "triangles": 1408,
+      "components": 1,
+      "bbox_min_mm": [
+        -48.0,
+        -21.75,
+        0.0
+      ],
+      "bbox_max_mm": [
+        -0.25,
+        -8.0,
+        3.0
+      ],
+      "size_mm": [
+        47.75,
+        13.75,
+        3.0
+      ],
+      "signed_volume_mm3": 699.666,
+      "nonmanifold_edges": 0,
+      "orientation_errors": 0,
+      "degenerate_triangles": 0,
+      "mesh_check_passed": true,
+      "quantity": 2
+    },
+    {
+      "file": "exports/shaft_spacer.stl",
+      "triangles": 1152,
+      "components": 1,
+      "bbox_min_mm": [
+        -6.0,
+        -6.0,
+        0.0
+      ],
+      "bbox_max_mm": [
+        6.0,
+        6.0,
+        9.0
+      ],
+      "size_mm": [
+        12.0,
+        12.0,
+        9.0
+      ],
+      "signed_volume_mm3": 390.253,
+      "nonmanifold_edges": 0,
+      "orientation_errors": 0,
+      "degenerate_triangles": 0,
+      "mesh_check_passed": true,
+      "quantity": 2
+    },
+    {
+      "file": "exports/upper_spacer.stl",
+      "triangles": 768,
+      "components": 1,
+      "bbox_min_mm": [
+        -5.0,
+        -5.0,
+        0.0
+      ],
+      "bbox_max_mm": [
+        5.0,
+        5.0,
+        3.5
+      ],
+      "size_mm": [
+        10.0,
+        10.0,
+        3.5
+      ],
+      "signed_volume_mm3": 226.237,
+      "nonmanifold_edges": 0,
+      "orientation_errors": 0,
+      "degenerate_triangles": 0,
+      "mesh_check_passed": true,
+      "quantity": 2
+    },
+    {
+      "file": "exports/top_cover.stl",
+      "triangles": 2740,
+      "components": 1,
+      "bbox_min_mm": [
+        -52.0,
+        -52.0,
+        0.0
+      ],
+      "bbox_max_mm": [
+        136.0,
+        52.0,
+        3.0
+      ],
+      "size_mm": [
+        188.0,
+        104.0,
+        3.0
+      ],
+      "signed_volume_mm3": 36725.614,
+      "nonmanifold_edges": 0,
+      "orientation_errors": 0,
+      "degenerate_triangles": 0,
+      "mesh_check_passed": true,
+      "quantity": 1
+    }
+  ]
+}

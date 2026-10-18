@@ -1,0 +1,20 @@
+{
+  "scope": "2D nominal rigid geometry only; forces, springs, friction, tolerances and axial clearances untested",
+  "candidate": "stop P(-38,-13.5), Q(-20,-20), E(-3,-20), tail(-45,-13.5), nose[-3,-0.25]x[-21.75,-12.5]",
+  "phase_step_degrees": 0.05,
+  "opening_step_degrees": 0.02,
+  "all_phases_have_free_opening": true,
+  "all_openings_clear_at_integer_phase": true,
+  "worst_minimum_opening_degrees": 6.96,
+  "worst_phase_degrees": 27.400000000000002,
+  "nonmonotonic_phases_degrees": [
+    35.0
+  ],
+  "non_nose_limiting_count": 0,
+  "non_nose_limiting_examples": [],
+  "minimum_clearance_at_integer_phase_all_openings_mm": 0.23675733812060246,
+  "connected_path_unconnected_phases": [],
+  "connected_path_maximum_lowest_opening_degrees": 6.96,
+  "connected_path_final_lowest_opening_degrees": 0.0,
+  "closed_stop_nominal_reverse_contact_degrees": 0.8426154008131252
+}

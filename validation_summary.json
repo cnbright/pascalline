@@ -1,0 +1,61 @@
+{
+  "version": "V0.2 rigid pivot pawls / metal guides / indexed cam release",
+  "generated_at_utc": "2026-10-15T11:57:32.980935+00:00",
+  "source_sha256": "938b2e7983265af279ef11afa5ffce0bac8022f535ac9fe8ba747e4faf517040",
+  "delivery_status": "REVISED_PRINTABLE_ENGINEERING_SAMPLE_NOT_PHYSICALLY_TESTED",
+  "units": "mm",
+  "obj_part_types": 9,
+  "full_quantity": 13,
+  "without_cover_quantity": 12,
+  "mesh_and_obj_roundtrip": "All 9 standalone objects passed closed oriented 2-manifold/single-surface and exact STL-to-OBJ coordinate and dimension checks.",
+  "nominal_geometry": {
+    "cam_contact_max_sample_error_mm": 0.001327420805220303,
+    "cam_max_pressure_angle_degrees": 51.299628347066,
+    "work_samples": 1041,
+    "release_samples": 211,
+    "work_and_release_overlap_count": 0,
+    "driver_return_checks": 4671,
+    "driver_return_overlap_count": 0,
+    "fixed_stop_single_tooth_path": "sampled feasible",
+    "manual_tens_lifts_checked_mm": [
+      -4.5,
+      0.0,
+      8.3
+    ],
+    "manual_tens_pair_collisions": 0,
+    "section_and_pair_clearance": "Specified work/return paths and fixed-body sweeps passed; independent arbitrary pawl opening combinations are not all collision-free."
+  },
+  "physical_tests_performed": false,
+  "required_before_use": [
+    "Fit holes and slots to purchased metal parts; follow ASSEMBLY.md.",
+    "Install 4 external return elements and 2 specified spring ball plungers.",
+    "Adjust spacers, axial play, ball height and spring force; perform 100 slow carry trials."
+  ],
+  "limitations": [
+    "No spring-force, friction, strength, fatigue or manufacturing-tolerance simulation.",
+    "2D return path is a geometric existence witness, not proof that springs select it automatically.",
+    "Forcing both pawls to independent extremes at high lift can collide; do not pry pawls or operate both input wheels simultaneously.",
+    "No supplier print/order acceptance or physical life testing has been performed."
+  ],
+  "obj_files_sha256": {
+    "base.obj": "3ced4ae75295bcc05faaf14bdfb86022bbb0fe6dc98ff1386d39af15dd3d60cf",
+    "carry_slider.obj": "a09ee261febf7f981aa35c36439af65255b2b7fafae237ccc97e05499b35dba5",
+    "digit_wheel.obj": "6cd2c7337ca377351574d07938ca823341d3e7fa22b655601282572ab5b08029",
+    "drive_pawl.obj": "681870f9f7d4465e9922032c280be4c55b6609097e64e341ae8e9e0d8f7c1c94",
+    "shaft_spacer.obj": "e7b09a89472d5013ec22d898d23d0cbf4cfbbb286254dfb2eb1c3d539ca2dda1",
+    "stop_pawl.obj": "4b2c4ef5e505ec9c0f97047a0c3aed4b6fb790ceab13d3a5df283d369ffe5dca",
+    "top_cover.obj": "80b768aa994ddbebbf647d2c9570506fb52a15ccff6e5a03dbc1de2240b7e9d3",
+    "units_cam.obj": "edda3c35c7dcb10c82d6e6c615cc8b147b14cca8b07d5e55d5c334d154bcf23c",
+    "upper_spacer.obj": "b9745fd43c242c7a8e10b8a7120970fbd281b36bca75b15c530dbee50493465e"
+  },
+  "evidence_reports_sha256": {
+    "cam_contact.json": "b3b1ee405ea95307542d12f2dfb5bb33bd44b2357419e6c124cab9a8ca699794",
+    "driver_reset_path.json": "ceb17dcac2cf310c0a90b0f77541ccc68c9cf6baae95bc96268da1f151191cbe",
+    "stop_setback_candidate.json": "c606d41e72ae6426b0beb66ccfede2cc96fd80762a1938dd82d9e0495017bff2",
+    "mechanism_evidence.json": "49b5078a4144405bcafc360b759d09bdaf52a3a7430b32ed027834f4ff38b359",
+    "section_clearance.json": "4d83ac555d5395996839889cb4b2c80fd1aad7a61754d6adb851e4f5e3dcca18",
+    "pawl_pair_path.json": "4aaed163af6dc927b730a021439d2be8da096e0542973300a6ab4ddbde2d6f99",
+    "manual_tens_pair.json": "8611d2a2eaab40a3e72c2e4aa2e54ed83b5fbb3acdc7a2b6b91f854475f5718b",
+    "working_stroke.json": "1d52121f3a9f5d24866daea6d5a69458891abbe04128a43379e41e0f823f8271"
+  }
+}

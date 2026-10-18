@@ -1,0 +1,15 @@
+{
+  "scope": "Nominal prescribed 2D work/release path; no spring, friction or detent-force simulation",
+  "source_sha256": "938b2e7983265af279ef11afa5ffce0bac8022f535ac9fe8ba747e4faf517040",
+  "work_samples": 1041,
+  "release_samples": 211,
+  "maximum_work_overlap_mm2": 6.107925910747424e-15,
+  "work_collision_count": 0,
+  "release_collision_count": 0,
+  "overlap_examples": [],
+  "nominal_peak_angle_deg": 39.76045631457076,
+  "assumed_max_contact_radius_mm": 12.75,
+  "assumed_total_stroke_loss_mm": 0.7,
+  "minimum_angle_under_assumptions_deg": 37.263308176384406,
+  "tolerance_note": "Conditional geometry budget only; actual aggregate play/loss must be measured."
+}

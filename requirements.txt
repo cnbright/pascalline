@@ -1,0 +1,5 @@
+# Tested with Python 3.12.14; only needed for geometry checks / preview composition.
+numpy==2.3.5
+shapely==2.2.0
+Pillow==12.3.0
+

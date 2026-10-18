@@ -1,0 +1,662 @@
+{
+  "generated_at_utc": "2026-10-15T11:53:14.410154+00:00",
+  "scope": "STL-to-OBJ geometry and closed oriented 2-manifold topology only; self-intersections, physical fit and printability are not validated",
+  "units": "mm",
+  "welding": "Exact coordinate equality; no tolerance welding",
+  "source_report": "/workspace/pascaline-v2/exports/mesh_report.json",
+  "source_report_sha256": "59b528e45fd94a969ba447c61d43d5baa2bd758e04d40a5308cbd222eef21be8",
+  "part_types": 9,
+  "validation_passed": true,
+  "parts": [
+    {
+      "part": "base",
+      "name_zh": "底座",
+      "quantity": 1,
+      "optional": false,
+      "source_stl": "exports/base.stl",
+      "obj_file": "obj/base.obj",
+      "object_count": 1,
+      "units": "mm",
+      "source_sha256": "6a2a46885b1c4b276b58a5d571ffb5809d292dff0fc18e8a86e5155f3446d7c5",
+      "obj_sha256": "3ced4ae75295bcc05faaf14bdfb86022bbb0fe6dc98ff1386d39af15dd3d60cf",
+      "source_stl_metrics": {
+        "vertices": 7708,
+        "triangles": 15472,
+        "bbox_min_mm": [
+          -52.0,
+          -52.0,
+          0.0
+        ],
+        "bbox_max_mm": [
+          136.0,
+          52.0,
+          26.5
+        ],
+        "size_mm": [
+          188.0,
+          104.0,
+          26.5
+        ],
+        "signed_volume_mm3": 111366.39434946292,
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "orientation_errors": 0,
+        "degenerate_triangles": 0,
+        "duplicate_faces": 0,
+        "closed_2_manifold": true,
+        "mesh_check_passed": true
+      },
+      "obj_metrics": {
+        "vertices": 7708,
+        "triangles": 15472,
+        "bbox_min_mm": [
+          -52.0,
+          -52.0,
+          0.0
+        ],
+        "bbox_max_mm": [
+          136.0,
+          52.0,
+          26.5
+        ],
+        "size_mm": [
+          188.0,
+          104.0,
+          26.5
+        ],
+        "signed_volume_mm3": 111366.39434946292,
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "orientation_errors": 0,
+        "degenerate_triangles": 0,
+        "duplicate_faces": 0,
+        "closed_2_manifold": true,
+        "mesh_check_passed": true
+      },
+      "roundtrip_geometry_exact": true,
+      "bbox_max_delta_mm": 0.0,
+      "volume_delta_mm3": 0.0,
+      "validation_passed": true
+    },
+    {
+      "part": "digit_wheel",
+      "name_zh": "数字轮（含棘轮）",
+      "quantity": 2,
+      "optional": false,
+      "source_stl": "exports/digit_wheel.stl",
+      "obj_file": "obj/digit_wheel.obj",
+      "object_count": 1,
+      "units": "mm",
+      "source_sha256": "52f3bae0bb6ec4f1c773ae502089ce9c57aca8bc7181c459df6dcab8bffcf3c5",
+      "obj_sha256": "6cd2c7337ca377351574d07938ca823341d3e7fa22b655601282572ab5b08029",
+      "source_stl_metrics": {
+        "vertices": 9958,
+        "triangles": 19956,
+        "bbox_min_mm": [
+          -35.0,
+          -35.0,
+          0.0
+        ],
+        "bbox_max_mm": [
+          35.0,
+          35.0,
+          11.0
+        ],
+        "size_mm": [
+          70.0,
+          70.0,
+          11.0
+        ],
+        "signed_volume_mm3": 17161.874822898797,
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "orientation_errors": 0,
+        "degenerate_triangles": 0,
+        "duplicate_faces": 0,
+        "closed_2_manifold": true,
+        "mesh_check_passed": true
+      },
+      "obj_metrics": {
+        "vertices": 9958,
+        "triangles": 19956,
+        "bbox_min_mm": [
+          -35.0,
+          -35.0,
+          0.0
+        ],
+        "bbox_max_mm": [
+          35.0,
+          35.0,
+          11.0
+        ],
+        "size_mm": [
+          70.0,
+          70.0,
+          11.0
+        ],
+        "signed_volume_mm3": 17161.874822898797,
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "orientation_errors": 0,
+        "degenerate_triangles": 0,
+        "duplicate_faces": 0,
+        "closed_2_manifold": true,
+        "mesh_check_passed": true
+      },
+      "roundtrip_geometry_exact": true,
+      "bbox_max_delta_mm": 0.0,
+      "volume_delta_mm3": 0.0,
+      "validation_passed": true
+    },
+    {
+      "part": "units_cam",
+      "name_zh": "个位凸轮",
+      "quantity": 1,
+      "optional": false,
+      "source_stl": "exports/units_cam.stl",
+      "obj_file": "obj/units_cam.obj",
+      "object_count": 1,
+      "units": "mm",
+      "source_sha256": "66982dca75524953892cfe5ccb873ebdd316c564511c05f846f9dc7e7a97819c",
+      "obj_sha256": "edda3c35c7dcb10c82d6e6c615cc8b147b14cca8b07d5e55d5c334d154bcf23c",
+      "source_stl_metrics": {
+        "vertices": 4102,
+        "triangles": 8204,
+        "bbox_min_mm": [
+          -17.5,
+          -31.926101684570312,
+          0.0
+        ],
+        "bbox_max_mm": [
+          17.5,
+          17.5,
+          11.0
+        ],
+        "size_mm": [
+          35.0,
+          49.42610168457031,
+          11.0
+        ],
+        "signed_volume_mm3": 4876.861456365156,
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "orientation_errors": 0,
+        "degenerate_triangles": 0,
+        "duplicate_faces": 0,
+        "closed_2_manifold": true,
+        "mesh_check_passed": true
+      },
+      "obj_metrics": {
+        "vertices": 4102,
+        "triangles": 8204,
+        "bbox_min_mm": [
+          -17.5,
+          -31.926101684570312,
+          0.0
+        ],
+        "bbox_max_mm": [
+          17.5,
+          17.5,
+          11.0
+        ],
+        "size_mm": [
+          35.0,
+          49.42610168457031,
+          11.0
+        ],
+        "signed_volume_mm3": 4876.861456365156,
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "orientation_errors": 0,
+        "degenerate_triangles": 0,
+        "duplicate_faces": 0,
+        "closed_2_manifold": true,
+        "mesh_check_passed": true
+      },
+      "roundtrip_geometry_exact": true,
+      "bbox_max_delta_mm": 0.0,
+      "volume_delta_mm3": 0.0,
+      "validation_passed": true
+    },
+    {
+      "part": "carry_slider",
+      "name_zh": "进位滑架",
+      "quantity": 1,
+      "optional": false,
+      "source_stl": "exports/carry_slider.stl",
+      "obj_file": "obj/carry_slider.obj",
+      "object_count": 1,
+      "units": "mm",
+      "source_sha256": "3dc3b16d3b6bd73cebbd4b885989a07a90fef4cd2e6cbe9bac40e6ef75603f6a",
+      "obj_sha256": "a09ee261febf7f981aa35c36439af65255b2b7fafae237ccc97e05499b35dba5",
+      "source_stl_metrics": {
+        "vertices": 2525,
+        "triangles": 5070,
+        "bbox_min_mm": [
+          -3.0,
+          -41.0,
+          0.0
+        ],
+        "bbox_max_mm": [
+          73.0,
+          37.0,
+          14.0
+        ],
+        "size_mm": [
+          76.0,
+          78.0,
+          14.0
+        ],
+        "signed_volume_mm3": 5397.358111726431,
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "orientation_errors": 0,
+        "degenerate_triangles": 0,
+        "duplicate_faces": 0,
+        "closed_2_manifold": true,
+        "mesh_check_passed": true
+      },
+      "obj_metrics": {
+        "vertices": 2525,
+        "triangles": 5070,
+        "bbox_min_mm": [
+          -3.0,
+          -41.0,
+          0.0
+        ],
+        "bbox_max_mm": [
+          73.0,
+          37.0,
+          14.0
+        ],
+        "size_mm": [
+          76.0,
+          78.0,
+          14.0
+        ],
+        "signed_volume_mm3": 5397.358111726431,
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "orientation_errors": 0,
+        "degenerate_triangles": 0,
+        "duplicate_faces": 0,
+        "closed_2_manifold": true,
+        "mesh_check_passed": true
+      },
+      "roundtrip_geometry_exact": true,
+      "bbox_max_delta_mm": 0.0,
+      "volume_delta_mm3": 0.0,
+      "validation_passed": true
+    },
+    {
+      "part": "drive_pawl",
+      "name_zh": "驱动拨爪",
+      "quantity": 1,
+      "optional": false,
+      "source_stl": "exports/drive_pawl.stl",
+      "obj_file": "obj/drive_pawl.obj",
+      "object_count": 1,
+      "units": "mm",
+      "source_sha256": "04acfa309a5b1468b81ed5e624b46ccdfdffe2baff676a2a1405ed62e5d3783a",
+      "obj_sha256": "681870f9f7d4465e9922032c280be4c55b6609097e64e341ae8e9e0d8f7c1c94",
+      "source_stl_metrics": {
+        "vertices": 732,
+        "triangles": 1468,
+        "bbox_min_mm": [
+          35.0,
+          0.0,
+          0.0
+        ],
+        "bbox_max_mm": [
+          71.5,
+          35.0,
+          3.0
+        ],
+        "size_mm": [
+          36.5,
+          35.0,
+          3.0
+        ],
+        "signed_volume_mm3": 649.3229100941862,
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "orientation_errors": 0,
+        "degenerate_triangles": 0,
+        "duplicate_faces": 0,
+        "closed_2_manifold": true,
+        "mesh_check_passed": true
+      },
+      "obj_metrics": {
+        "vertices": 732,
+        "triangles": 1468,
+        "bbox_min_mm": [
+          35.0,
+          0.0,
+          0.0
+        ],
+        "bbox_max_mm": [
+          71.5,
+          35.0,
+          3.0
+        ],
+        "size_mm": [
+          36.5,
+          35.0,
+          3.0
+        ],
+        "signed_volume_mm3": 649.3229100941862,
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "orientation_errors": 0,
+        "degenerate_triangles": 0,
+        "duplicate_faces": 0,
+        "closed_2_manifold": true,
+        "mesh_check_passed": true
+      },
+      "roundtrip_geometry_exact": true,
+      "bbox_max_delta_mm": 0.0,
+      "volume_delta_mm3": 0.0,
+      "validation_passed": true
+    },
+    {
+      "part": "stop_pawl",
+      "name_zh": "止回爪",
+      "quantity": 2,
+      "optional": false,
+      "source_stl": "exports/stop_pawl.stl",
+      "obj_file": "obj/stop_pawl.obj",
+      "object_count": 1,
+      "units": "mm",
+      "source_sha256": "2b71d5ceb8b3e1e3115defbc4c03ce4510c98f46d47121f1bf9fa735c5157d5b",
+      "obj_sha256": "4b2c4ef5e505ec9c0f97047a0c3aed4b6fb790ceab13d3a5df283d369ffe5dca",
+      "source_stl_metrics": {
+        "vertices": 702,
+        "triangles": 1408,
+        "bbox_min_mm": [
+          -48.0,
+          -21.75,
+          0.0
+        ],
+        "bbox_max_mm": [
+          -0.25,
+          -8.0,
+          3.0
+        ],
+        "size_mm": [
+          47.75,
+          13.75,
+          3.0
+        ],
+        "signed_volume_mm3": 699.6656096775569,
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "orientation_errors": 0,
+        "degenerate_triangles": 0,
+        "duplicate_faces": 0,
+        "closed_2_manifold": true,
+        "mesh_check_passed": true
+      },
+      "obj_metrics": {
+        "vertices": 702,
+        "triangles": 1408,
+        "bbox_min_mm": [
+          -48.0,
+          -21.75,
+          0.0
+        ],
+        "bbox_max_mm": [
+          -0.25,
+          -8.0,
+          3.0
+        ],
+        "size_mm": [
+          47.75,
+          13.75,
+          3.0
+        ],
+        "signed_volume_mm3": 699.6656096775569,
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "orientation_errors": 0,
+        "degenerate_triangles": 0,
+        "duplicate_faces": 0,
+        "closed_2_manifold": true,
+        "mesh_check_passed": true
+      },
+      "roundtrip_geometry_exact": true,
+      "bbox_max_delta_mm": 0.0,
+      "volume_delta_mm3": 0.0,
+      "validation_passed": true
+    },
+    {
+      "part": "shaft_spacer",
+      "name_zh": "下法兰轴套",
+      "quantity": 2,
+      "optional": false,
+      "source_stl": "exports/shaft_spacer.stl",
+      "obj_file": "obj/shaft_spacer.obj",
+      "object_count": 1,
+      "units": "mm",
+      "source_sha256": "828e6c15103bdc418697a22c713d12213d64e7057e3e179015a527aed6f3dd30",
+      "obj_sha256": "e7b09a89472d5013ec22d898d23d0cbf4cfbbb286254dfb2eb1c3d539ca2dda1",
+      "source_stl_metrics": {
+        "vertices": 576,
+        "triangles": 1152,
+        "bbox_min_mm": [
+          -6.0,
+          -6.0,
+          0.0
+        ],
+        "bbox_max_mm": [
+          6.0,
+          6.0,
+          9.0
+        ],
+        "size_mm": [
+          12.0,
+          12.0,
+          9.0
+        ],
+        "signed_volume_mm3": 390.25255165833005,
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "orientation_errors": 0,
+        "degenerate_triangles": 0,
+        "duplicate_faces": 0,
+        "closed_2_manifold": true,
+        "mesh_check_passed": true
+      },
+      "obj_metrics": {
+        "vertices": 576,
+        "triangles": 1152,
+        "bbox_min_mm": [
+          -6.0,
+          -6.0,
+          0.0
+        ],
+        "bbox_max_mm": [
+          6.0,
+          6.0,
+          9.0
+        ],
+        "size_mm": [
+          12.0,
+          12.0,
+          9.0
+        ],
+        "signed_volume_mm3": 390.25255165833005,
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "orientation_errors": 0,
+        "degenerate_triangles": 0,
+        "duplicate_faces": 0,
+        "closed_2_manifold": true,
+        "mesh_check_passed": true
+      },
+      "roundtrip_geometry_exact": true,
+      "bbox_max_delta_mm": 0.0,
+      "volume_delta_mm3": 0.0,
+      "validation_passed": true
+    },
+    {
+      "part": "upper_spacer",
+      "name_zh": "上轴向隔圈",
+      "quantity": 2,
+      "optional": false,
+      "source_stl": "exports/upper_spacer.stl",
+      "obj_file": "obj/upper_spacer.obj",
+      "object_count": 1,
+      "units": "mm",
+      "source_sha256": "cef6159cb99a26720f21d4f668adde053c747cfb76eef1ac161e3232473c4c65",
+      "obj_sha256": "b9745fd43c242c7a8e10b8a7120970fbd281b36bca75b15c530dbee50493465e",
+      "source_stl_metrics": {
+        "vertices": 384,
+        "triangles": 768,
+        "bbox_min_mm": [
+          -5.0,
+          -5.0,
+          0.0
+        ],
+        "bbox_max_mm": [
+          5.0,
+          5.0,
+          3.5
+        ],
+        "size_mm": [
+          10.0,
+          10.0,
+          3.5
+        ],
+        "signed_volume_mm3": 226.23725775720595,
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "orientation_errors": 0,
+        "degenerate_triangles": 0,
+        "duplicate_faces": 0,
+        "closed_2_manifold": true,
+        "mesh_check_passed": true
+      },
+      "obj_metrics": {
+        "vertices": 384,
+        "triangles": 768,
+        "bbox_min_mm": [
+          -5.0,
+          -5.0,
+          0.0
+        ],
+        "bbox_max_mm": [
+          5.0,
+          5.0,
+          3.5
+        ],
+        "size_mm": [
+          10.0,
+          10.0,
+          3.5
+        ],
+        "signed_volume_mm3": 226.23725775720595,
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "orientation_errors": 0,
+        "degenerate_triangles": 0,
+        "duplicate_faces": 0,
+        "closed_2_manifold": true,
+        "mesh_check_passed": true
+      },
+      "roundtrip_geometry_exact": true,
+      "bbox_max_delta_mm": 0.0,
+      "volume_delta_mm3": 0.0,
+      "validation_passed": true
+    },
+    {
+      "part": "top_cover",
+      "name_zh": "上盖",
+      "quantity": 1,
+      "optional": true,
+      "source_stl": "exports/top_cover.stl",
+      "obj_file": "obj/top_cover.obj",
+      "object_count": 1,
+      "units": "mm",
+      "source_sha256": "0c9dc71ee825430a823cf4e7f7cb27339100d70be7d3141091c89bc6abb2df96",
+      "obj_sha256": "80b768aa994ddbebbf647d2c9570506fb52a15ccff6e5a03dbc1de2240b7e9d3",
+      "source_stl_metrics": {
+        "vertices": 1360,
+        "triangles": 2740,
+        "bbox_min_mm": [
+          -52.0,
+          -52.0,
+          0.0
+        ],
+        "bbox_max_mm": [
+          136.0,
+          52.0,
+          3.0
+        ],
+        "size_mm": [
+          188.0,
+          104.0,
+          3.0
+        ],
+        "signed_volume_mm3": 36725.61405981473,
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "orientation_errors": 0,
+        "degenerate_triangles": 0,
+        "duplicate_faces": 0,
+        "closed_2_manifold": true,
+        "mesh_check_passed": true
+      },
+      "obj_metrics": {
+        "vertices": 1360,
+        "triangles": 2740,
+        "bbox_min_mm": [
+          -52.0,
+          -52.0,
+          0.0
+        ],
+        "bbox_max_mm": [
+          136.0,
+          52.0,
+          3.0
+        ],
+        "size_mm": [
+          188.0,
+          104.0,
+          3.0
+        ],
+        "signed_volume_mm3": 36725.61405981473,
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "orientation_errors": 0,
+        "degenerate_triangles": 0,
+        "duplicate_faces": 0,
+        "closed_2_manifold": true,
+        "mesh_check_passed": true
+      },
+      "roundtrip_geometry_exact": true,
+      "bbox_max_delta_mm": 0.0,
+      "volume_delta_mm3": 0.0,
+      "validation_passed": true
+    }
+  ],
+  "total_quantity_with_cover": 13,
+  "total_quantity_without_cover": 12
+}

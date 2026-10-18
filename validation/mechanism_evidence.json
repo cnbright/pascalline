@@ -1,0 +1,99 @@
+{
+  "status": "NOMINAL_2D_GEOMETRIC_EVIDENCE_ONLY",
+  "source": "../pascaline.scad",
+  "source_sha256": "938b2e7983265af279ef11afa5ffce0bac8022f535ac9fe8ba747e4faf517040",
+  "source_correspondence": "Cam report evaluates current SCAD functions. Driver and stop scripts reconstruct their explicit planar dimensions; final SCAD dimensions were checked against the values listed below.",
+  "checked_planar_parameters": {
+    "ratchet_root_radius_mm": 11.5,
+    "ratchet_tip_radius_mm": 17,
+    "tooth_count": 10,
+    "drive_pivot_mm": [
+      48,
+      22
+    ],
+    "drive_end_mm": [
+      69.5,
+      2
+    ],
+    "drive_tail_mm": [
+      38,
+      32
+    ],
+    "drive_opening_limit_degrees": 15,
+    "stop_pivot_mm": [
+      -38,
+      -13.5
+    ],
+    "stop_bend_mm": [
+      -20,
+      -20
+    ],
+    "stop_end_mm": [
+      -3,
+      -20
+    ],
+    "stop_tail_mm": [
+      -45,
+      -13.5
+    ],
+    "stop_nose_box_mm": [
+      [
+        -3,
+        -21.75
+      ],
+      [
+        -0.25,
+        -12.5
+      ]
+    ],
+    "stop_opening_limit_degrees": 25,
+    "arm_radius_mm": 1.75,
+    "cam_low_lift_mm": -4.5,
+    "cam_peak_lift_mm": 10.4,
+    "cam_release_lift_mm": 8.3,
+    "drive_nose_polygon_mm": [
+      [
+        68,
+        0
+      ],
+      [
+        71.5,
+        0
+      ],
+      [
+        71,
+        3.5
+      ],
+      [
+        68,
+        3.5
+      ]
+    ]
+  },
+  "reports": {
+    "cam_contact.json": {
+      "sha256": "b3b1ee405ea95307542d12f2dfb5bb33bd44b2357419e6c124cab9a8ca699794",
+      "scope": "Actual SCAD functions; planar geometric samples only. No friction, spring forces, strength, or physical validation."
+    },
+    "driver_reset_path.json": {
+      "sha256": "ceb17dcac2cf310c0a90b0f77541ccc68c9cf6baae95bc96268da1f151191cbe",
+      "scope": "Driver-to-ratchet geometric existence path only; other assembly parts, force, friction, springs and tolerances not simulated"
+    },
+    "stop_setback_candidate.json": {
+      "sha256": "c606d41e72ae6426b0beb66ccfede2cc96fd80762a1938dd82d9e0495017bff2",
+      "scope": "2D nominal rigid geometry only; forces, springs, friction, tolerances and axial clearances untested"
+    }
+  },
+  "conclusions": [
+    "A sampled driver-to-ratchet non-overlap path exists for the final tapered nose from lift 8.3 mm / wheel 36 degrees / driver opening 0 degrees, through lift -4.5 mm, to lift 0 mm / opening 0 degrees. Planning uses the encompassing old rectangular nose. The maximum planned opening of 12.35 degrees is a conservative feasible bound within the 15-degree limit, not the minimum required opening for the tapered nose. All 4671 recorded nodes and midpoints were checked against the actual tapered nose without overlap.",
+    "The fixed stop has a sampled connected non-overlap opening path through one 36-degree tooth cycle and can close at the indexed phase. Its nominal reverse contact begins at approximately 0.8426 degrees; ball detents provide positional indexing.",
+    "The actual SCAD cam polygon is valid and its sampled contact error with the 1.5 mm follower is at most 0.00133 mm. Maximum sampled pressure angle is 51.30 degrees."
+  ],
+  "not_established": [
+    "That passive springs or friction select the constructed geometric path automatically.",
+    "Dynamic motion, spring forces, torque requirements, impact, fatigue, resin strength or wear.",
+    "Manufacturing tolerance robustness or fit after SLA printing.",
+    "Whole-assembly, axial, metal hardware, nut or screw clearance; these need separate assembly checks.",
+    "Physical carry reliability or readiness for unattended use; prototype assembly and cycling remain necessary."
+  ]
+}

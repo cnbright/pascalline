@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+*.log
+*.blend*
+*.obj.tmp
+validation/section_clearance/
+validation/clearance_snapshot.scad
+validation/manual_tens_lift_*.json
+build/
+

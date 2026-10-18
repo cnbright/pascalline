@@ -1,0 +1,35 @@
+{
+  "source_sha256": "938b2e7983265af279ef11afa5ffce0bac8022f535ac9fe8ba747e4faf517040",
+  "driver_path_sha256": "13e17803c9eaa99cc7d165b10322cbef291cea915ea2e3381c7f5f92c85a336c",
+  "scope": "SCAD-exported pawls at Z14.5. Actual sampled driver return CSV; working and release closed driver. Stop considered both closed and conservative full 0..25deg sweep. No forces/dynamics/tolerances.",
+  "checks": {
+    "stop_closed": {
+      "minimum": {
+        "gap_mm": 4.416040717144981,
+        "lift": 8.3,
+        "cw_opening_degrees": 0.0,
+        "sequence": 0
+      },
+      "overlap_count": 0,
+      "overlap_examples": []
+    },
+    "stop_swept_0_to_25": {
+      "minimum": {
+        "gap_mm": 4.414085200283729,
+        "lift": 8.3,
+        "cw_opening_degrees": 0.0,
+        "sequence": 0
+      },
+      "overlap_count": 0,
+      "overlap_examples": []
+    },
+    "working_and_release_driver_closed": {
+      "minimum": {
+        "gap_mm": 2.4088198046547498,
+        "lift": 10.4
+      },
+      "overlap_count": 0,
+      "overlap_examples": []
+    }
+  }
+}
