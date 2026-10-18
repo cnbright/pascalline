@@ -1,0 +1,100 @@
+{
+  "status": "HANDOFF_VERIFIED_NOT_PHYSICALLY_TESTED",
+  "checked_at_utc": "2026-10-18T15:49:42.079869+00:00",
+  "repository": "https://github.com/cnbright/pascalline",
+  "source_sha256": "938b2e7983265af279ef11afa5ffce0bac8022f535ac9fe8ba747e4faf517040",
+  "saved_baseline_files_checked": 57,
+  "fresh_github_clone_baseline_passed": true,
+  "arithmetic_tests_passed": 14,
+  "mesh_regeneration_comparison": [
+    {
+      "part": "base",
+      "mesh_passed": true,
+      "dimension_delta_mm": 0.0,
+      "volume_delta_mm3": 0.0
+    },
+    {
+      "part": "digit_wheel",
+      "mesh_passed": true,
+      "dimension_delta_mm": 0.0,
+      "volume_delta_mm3": 0.0
+    },
+    {
+      "part": "units_cam",
+      "mesh_passed": true,
+      "dimension_delta_mm": 0.0,
+      "volume_delta_mm3": 0.0
+    },
+    {
+      "part": "carry_slider",
+      "mesh_passed": true,
+      "dimension_delta_mm": 0.0,
+      "volume_delta_mm3": 0.0
+    },
+    {
+      "part": "drive_pawl",
+      "mesh_passed": true,
+      "dimension_delta_mm": 0.0,
+      "volume_delta_mm3": 0.0
+    },
+    {
+      "part": "stop_pawl",
+      "mesh_passed": true,
+      "dimension_delta_mm": 0.0,
+      "volume_delta_mm3": 0.0
+    },
+    {
+      "part": "shaft_spacer",
+      "mesh_passed": true,
+      "dimension_delta_mm": 0.0,
+      "volume_delta_mm3": 0.0
+    },
+    {
+      "part": "upper_spacer",
+      "mesh_passed": true,
+      "dimension_delta_mm": 0.0,
+      "volume_delta_mm3": 0.0
+    },
+    {
+      "part": "top_cover",
+      "mesh_passed": true,
+      "dimension_delta_mm": 0.0,
+      "volume_delta_mm3": 0.0
+    }
+  ],
+  "geometry_checks": {
+    "cam_sampled_contact": true,
+    "driver_return_path": true,
+    "stop_sampled_connected_path": true,
+    "work_and_release_path": true,
+    "fixed_body_sections": true,
+    "prescribed_pawl_pair_path": true,
+    "manual_tens_sampled_angles": true
+  },
+  "known_independent_extreme_envelope_collisions": [
+    {
+      "pair": "drive_tens_stop_swept",
+      "max_overlap_area_mm2": 10.690072513481002,
+      "drive_angle": -15.0,
+      "lift": 10.4,
+      "z": 14.5,
+      "bounds": [
+        60.42849915610954,
+        -15.73261573826874,
+        65.34105229002188,
+        -11.530340698397792
+      ]
+    }
+  ],
+  "new_preview_images": 9,
+  "preview_png_and_pdf_generated": true,
+  "preview_missing_output_rejected": true,
+  "baseline_unchanged_after_final_preview": true,
+  "physical_tests_performed": false,
+  "verification_execution": "Mesh and seven geometry stages were regenerated; after correcting Blender script path isolation, the preview stage was rerun separately and passed. The final checks above describe those executed stages, not physical mechanism tests.",
+  "tested_tools_sha256": {
+    "tools/rebuild.py": "73c9d507d4981d0ab6fa66b28a8b87fb63caebbabea3f43a91586525d0848420",
+    "tools/verify_baseline.py": "5a2fec813d278cc2bf95dcc4673cf7fabee97e6b28a1f34648b51a7a7b3e5e92",
+    "validation/section_clearance.py": "41dffdece0a9c7782abc706bd862b1d8bfe3c290541e8c2ce400e94419d2e492"
+  }
+}

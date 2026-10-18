@@ -85,7 +85,7 @@ def main():
                 'physical_tests_performed': False, 'status': 'RUNNING'}
     log_dir = destination / 'rebuild_logs'
     log_dir.mkdir()
-    env = dict(os.environ, QT_QPA_PLATFORM='offscreen', PYTHONDONTWRITEBYTECODE='1')
+    env = dict(os.environ, PWD=str(destination), QT_QPA_PLATFORM='offscreen', PYTHONDONTWRITEBYTECODE='1')
     def run(name, command):
         print(f'Running {name} ...', flush=True)
         log = log_dir / (name + '.log')
@@ -114,7 +114,7 @@ def main():
                 shutil.rmtree(previews)
             for suffix in ['png', 'pdf']:
                 (destination / 'exports' / ('print_parts_overview.' + suffix)).unlink(missing_ok=True)
-            run('render_parts', ['blender', '-b', '-t', '4', '--python-exit-code', '1', '--python', 'tools/render_part_sheet.py'])
+            run('render_parts', ['blender', '-b', '-t', '4', '--python-exit-code', '1', '--python', str(destination / 'tools/render_part_sheet.py')])
             parts = json.loads((destination / 'exports/mesh_report.json').read_text())['parts']
             for part in parts:
                 expected = previews / (Path(part['file']).stem + '.png')

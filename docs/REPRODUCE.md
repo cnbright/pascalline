@@ -9,6 +9,8 @@ git clone https://github.com/cnbright/pascalline.git
 cd pascalline
 ```
 
+本次交付固定为标签 `v0.2-handoff`。如需精确恢复本次版本并继续修改，可执行 `git switch -c work/rebuild v0.2-handoff`；已有工作副本先检查状态，勿覆盖现有改动。
+
 克隆 GitHub 仓库即可得到全部源码、9 个 OBJ、9 个 STL、预览、原交付 ZIP、装配说明、五金清单和证据。没有 Git LFS、外部网格、云端建模服务或私有子模块依赖。私有仓库需新环境登录有读取权限的 GitHub 账号。
 
 ```bash

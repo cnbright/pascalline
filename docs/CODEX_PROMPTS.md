@@ -2,6 +2,8 @@
 
 GitHub 仓库：`https://github.com/cnbright/pascalline`。项目位于仓库根目录；直接克隆时目录通常叫 `pascalline/`。若 Codex 已自动检出，使用现有工作目录即可。
 
+本次交付标签为 `v0.2-handoff`；需要锁定本次版本时，从该标签创建新的工作分支。
+
 以下四段可分别整段复制。重建统一写到独立输出目录；示例 `/tmp/pascaline-rebuild` 已存在时，选择新的空目录，保留其中已有结果。
 
 ## 1. 恢复项目并核对基线
