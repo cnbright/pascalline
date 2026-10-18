@@ -1,13 +1,13 @@
 # 可复制的 Codex 接续提示词
 
-先把 `<仓库URL>` 替换为最终上传的仓库地址，把 `<项目目录>` 替换为检出后包含 `AGENTS.md` 与 `pascaline.scad` 的项目目录。若项目位于现有仓库子目录，保留该层目录。远端目标确定后再填写，不假定仓库名称或地址。
+GitHub 仓库：`https://github.com/cnbright/pascalline`。项目位于仓库根目录；直接克隆时目录通常叫 `pascalline/`。若 Codex 已自动检出，使用现有工作目录即可。
 
 以下四段可分别整段复制。重建统一写到独立输出目录；示例 `/tmp/pascaline-rebuild` 已存在时，选择新的空目录，保留其中已有结果。
 
 ## 1. 恢复项目并核对基线
 
 ```text
-请接续帕斯卡两位计算器 V0.2 项目。已有检出时使用当前工作副本；否则先克隆 <仓库URL>，进入 <项目目录>。读取 AGENTS.md、docs/PROJECT_CONTEXT.md、docs/REPRODUCE.md 和 ASSEMBLY.md，先检查当前 Git 状态并保留已有改动。
+请接续帕斯卡两位计算器 V0.2 项目。已有检出时使用当前工作副本；否则先克隆 https://github.com/cnbright/pascalline，进入 仓库根目录。读取 AGENTS.md、docs/PROJECT_CONTEXT.md、docs/REPRODUCE.md 和 ASSEMBLY.md，先检查当前 Git 状态并保留已有改动。
 
 按仓库说明准备依赖，然后从项目根目录依次运行：
 python3 tools/verify_baseline.py
@@ -19,7 +19,7 @@ python3 -m unittest discover -s software -v
 ## 2. 重建独立 OBJ 与零件预览
 
 ```text
-请在当前检出的 <项目目录> 继续；没有检出时先克隆 <仓库URL> 再进入项目目录。先读 AGENTS.md、docs/PROJECT_CONTEXT.md、docs/REPRODUCE.md，按 requirements.txt 与复现说明准备依赖，并先运行：
+请在当前检出的 仓库根目录 继续；没有检出时先克隆 https://github.com/cnbright/pascalline 再进入项目目录。先读 AGENTS.md、docs/PROJECT_CONTEXT.md、docs/REPRODUCE.md，按 requirements.txt 与复现说明准备依赖，并先运行：
 python3 tools/verify_baseline.py
 python3 -m unittest discover -s software -v
 
@@ -32,7 +32,7 @@ python3 tools/rebuild.py --output /tmp/pascaline-rebuild --meshes --preview
 ## 3. 继续两位机构验证
 
 ```text
-请使用当前检出的 <项目目录>；没有检出时先克隆 <仓库URL>。读取 AGENTS.md、docs/PROJECT_CONTEXT.md、docs/REPRODUCE.md、ASSEMBLY.md 以及 validation_summary.json，从项目根目录先运行：
+请使用当前检出的 仓库根目录；没有检出时先克隆 https://github.com/cnbright/pascalline。读取 AGENTS.md、docs/PROJECT_CONTEXT.md、docs/REPRODUCE.md、ASSEMBLY.md 以及 validation_summary.json，从项目根目录先运行：
 python3 tools/verify_baseline.py
 python3 -m unittest discover -s software -v
 
@@ -47,7 +47,7 @@ python3 tools/rebuild.py --output /tmp/pascaline-rebuild --geometry
 ## 4. 可选：开展多位扩展
 
 ```text
-请在当前检出的 <项目目录> 开展三位机械原型研究；没有检出时先克隆 <仓库URL>。先读 AGENTS.md、docs/PROJECT_CONTEXT.md、docs/REPRODUCE.md 和现有两位装配、验证报告，并运行：
+请在当前检出的 仓库根目录 开展三位机械原型研究；没有检出时先克隆 https://github.com/cnbright/pascalline。先读 AGENTS.md、docs/PROJECT_CONTEXT.md、docs/REPRODUCE.md 和现有两位装配、验证报告，并运行：
 python3 tools/verify_baseline.py
 python3 -m unittest discover -s software -v
 

@@ -4,6 +4,11 @@
 
 ## 1. 原样恢复交付文件
 
+```bash
+git clone https://github.com/cnbright/pascalline.git
+cd pascalline
+```
+
 克隆 GitHub 仓库即可得到全部源码、9 个 OBJ、9 个 STL、预览、原交付 ZIP、装配说明、五金清单和证据。没有 Git LFS、外部网格、云端建模服务或私有子模块依赖。私有仓库需新环境登录有读取权限的 GitHub 账号。
 
 ```bash

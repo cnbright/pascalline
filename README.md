@@ -1,6 +1,6 @@
 # 两位帕斯卡计算器 V0.2 · OBJ 打印交付
 
-本仓库用于跨 Codex 环境恢复项目。先读 [项目上下文](docs/PROJECT_CONTEXT.md)；新环境执行步骤见 [重建说明](docs/REPRODUCE.md)，可复制提示词见 [CODEX_PROMPTS.md](docs/CODEX_PROMPTS.md)。
+GitHub：[cnbright/pascalline](https://github.com/cnbright/pascalline)。本仓库用于跨 Codex 环境恢复项目。先读 [项目上下文](docs/PROJECT_CONTEXT.md)；新环境执行步骤见 [重建说明](docs/REPRODUCE.md)，可复制提示词见 [CODEX_PROMPTS.md](docs/CODEX_PROMPTS.md)。
 
 ```bash
 python3 tools/verify_baseline.py
